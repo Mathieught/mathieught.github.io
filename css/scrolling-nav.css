@@ -61,3 +61,39 @@ li {
 .bg-projet {
     background-color: #f1f1f1;
 }
+
+.arrow-color {
+    color: black !important;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    opacity: 1;
+}
+
+.carousel-caption.d-none.d-md-block::after {
+    content: "";
+    background: black;
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate( -50% , -50%);
+    border-radius: 20px;
+    z-index: -1;
+    opacity: 0.6;
+}
+.carousel-caption.d-none.d-md-block.text-white p{
+    color: white !important;
+}
+.carousel-caption.d-none.d-md-block.text-white h5{
+    color: white !important;
+}
+
+.carousel-caption.d-none.d-md-block p a{
+    color: #92d4f7;
+}
+.carousel-caption.d-none.d-md-block p a:hover{
+    color: white;
+}
