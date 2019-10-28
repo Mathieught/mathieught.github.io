@@ -3,6 +3,7 @@
  * Copyright 2013-2019 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
  */
+
 header {
     padding: 156px 0 100px;
 }
@@ -24,31 +25,39 @@ section {
 .font {
     font-family: 'Montserrat', sans-serif;
 }
+
 a:hover {
-  text-decoration: none;
+    text-decoration: none;
 }
-a.txt{
-  color: #529baf;
-  font-size: 17px;
+
+a.txt {
+    color: #529baf;
+    font-size: 17px;
 }
-a.txt:hover{
-  color: white;
+
+a.txt:hover {
+    color: white;
 }
+
 a.nav-link.js-scroll-trigger {
-  color: #fff !important;
+    color: #fff !important;
 }
+
 a.nav-link.js-scroll-trigger:hover {
-  color: rgba(204,205,207,.7) !important;
+    color: rgba(204, 205, 207, .7) !important;
 }
-li{
-  list-style: none;
+
+li {
+    list-style: none;
 }
-.card{
-  border: 0px solid transparent !important;
-  -webkit-box-shadow: 0px 0px 8px -1px rgb(36, 41, 46);
-  -moz-box-shadow: 0px 0px 8px -1px rgb(36, 41, 46);
-  box-shadow: 0px 0px 8px -1px rgb(36, 41, 46);
+
+.card {
+    border: 0px solid transparent !important;
+    -webkit-box-shadow: 0px 0px 8px -1px rgb(36, 41, 46);
+    -moz-box-shadow: 0px 0px 8px -1px rgb(36, 41, 46);
+    box-shadow: 0px 0px 8px -1px rgb(36, 41, 46);
 }
-.bg-projet{
-  background-color: #f1f1f1;
+
+.bg-projet {
+    background-color: #f1f1f1;
 }
