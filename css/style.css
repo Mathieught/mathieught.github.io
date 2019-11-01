@@ -64,3 +64,17 @@ li {
 .carousel-control-prev {
     opacity: 0.7;
 }
+.btn-primary {
+    color: #fff;
+    background-color: #529baf;
+    border-color: #529baf;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #468192;
+    border-color: #468192;
+}
+.btn-primary:active {
+    background-color: #468192 !important;
+    border-color: #468192 !important;
+}
