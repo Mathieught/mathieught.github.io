@@ -1,50 +1,53 @@
 header {
     padding: 156px 0 100px;
 }
-
 section {
     padding: 100px 0;
 }
 
+/* font */
 * {
     /* font-family: 'Staatliches', cursive; */
     font-family: 'Lato', sans-serif;
     /* font-family: 'Montserrat', sans-serif; */
 }
-
-.bg-primary {
-    background-color: #529baf !important;
-}
-
 .font {
     font-family: 'Montserrat', sans-serif;
 }
 
+
+/* background */
+.bg-primary {
+    background-color: #529baf !important;
+}
+.bg-projet {
+    background-color: #f1f1f1;
+}
+
+
+
+/* lien */
 a:hover {
     text-decoration: none;
 }
-
 a.txt {
     color: #529baf;
     font-size: 17px;
 }
-
 a.txt:hover {
     color: white;
 }
-
 a.nav-link.js-scroll-trigger {
     color: #fff !important;
 }
-
 a.nav-link.js-scroll-trigger:hover {
     color: rgba(204, 205, 207, .7) !important;
 }
-
 li {
     list-style: none;
 }
 
+/* card */
 .card {
     border: 0px solid transparent !important;
     -webkit-box-shadow: 0px 0px 8px -1px rgb(36, 41, 46);
@@ -52,18 +55,20 @@ li {
     box-shadow: 0px 0px 8px -1px rgb(36, 41, 46);
 }
 
-.bg-projet {
-    background-color: #f1f1f1;
-}
 
+/* carousel */
 .arrow-color {
     color: black !important;
 }
-
 .carousel-control-next,
 .carousel-control-prev {
     opacity: 0.7;
 }
+.carousel-indicators li {
+    background-color: #333333;
+}
+
+/* BTN */
 .btn-primary {
     color: #fff;
     background-color: #529baf;
